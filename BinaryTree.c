@@ -81,7 +81,7 @@ int main(void) {
 	 * Open the file "input.txt" as the input file.
 	 * If the operation is not successful, you must print out a proper message and terminate the program.
 	 */
-    inPtr = fopen("Input", "r");
+    inPtr = fopen("Input.txt", "r");
     if(inPtr == NULL)
     {
        printf("The Text file cannot be opened!\n");
